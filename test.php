@@ -13,7 +13,7 @@ $count2 = count($split2);
 echo "String: ".$str1."\n";
 for($i = 0; $i<$count1; $i++) {
     $match = substr_count($str1, $split1[$i]);
-    print("Terdapat ".$match." karakter ".$split1[$i]." sama pada string: ".$str1."\n");
+    print("Terdapat ".$match." karakter ".$split1[$i]." pada string: ".$str1."\n");
 }
 
 
@@ -21,6 +21,6 @@ for($i = 0; $i<$count1; $i++) {
 echo "\nString: ".$str2."\n";
 for($i = 0; $i<$count1; $i++) {
     $match = substr_count($str2, $split2[$i]);
-    print("Terdapat ".$match." karakter ".$split2[$i]." sama pada string: ".$str2."\n");
+    print("Terdapat ".$match." karakter ".$split2[$i]." pada string: ".$str2."\n");
 }
 ?>
