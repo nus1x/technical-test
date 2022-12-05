@@ -6,7 +6,7 @@ $str2 = "a4b2sd2f2h2ck3ml";
 $split1 = str_split($str1);
 $count1 = count($split1);
 
-$split2 = str_split($str1);
+$split2 = str_split($str2);
 $count2 = count($split2);
 
 // total karakter yang sama dari $str1
