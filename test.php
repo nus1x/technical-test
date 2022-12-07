@@ -19,7 +19,7 @@ for($i = 0; $i<$count1; $i++) {
 
 // total karakter yang sama dari $str2
 echo "\nString: ".$str2."\n";
-for($i = 0; $i<$count1; $i++) {
+for($i = 0; $i<$count2; $i++) {
     $match = substr_count($str2, $split2[$i]);
     print("Terdapat ".$match." karakter ".$split2[$i]." pada string: ".$str2."\n");
 }
